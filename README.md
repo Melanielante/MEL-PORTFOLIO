@@ -1,16 +1,54 @@
-# React + Vite
+# Melanie Akinyi — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal developer portfolio built with React and Vite. Dark-themed, animated, and built to reflect my work and approach to software development.
 
-Currently, two official plugins are available:
+**Live sections:** Hero · About · Projects · Skills · Case Study · Contact
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+| Layer | Tools |
+|---|---|
+| UI | React 19, Framer Motion, Lucide React |
+| Build | Vite 8 |
+| Styling | CSS custom properties (no framework) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start local dev server |
+| `npm run build` | Production build to `dist/` |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint |
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Hero.jsx        # Landing section
+│   ├── About.jsx       # About me + trait cards
+│   ├── Projects.jsx    # Featured & other projects
+│   ├── Skills.jsx      # Tech stack grid
+│   ├── CaseStudy.jsx   # ERP system deep-dive
+│   ├── Contact.jsx     # Contact form/links
+│   ├── Navbar.jsx
+│   └── Footer.jsx
+├── App.jsx
+└── index.css           # Design tokens + global styles
+```
+
+## Contact
+
+- GitHub: [Melanielante](https://github.com/Melanielante)
+- LinkedIn: [melanie-akinyi](https://www.linkedin.com/in/melanie-akinyi-44ab07234/)
+- Email: kleinmelanie04@gmail.com
