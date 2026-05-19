@@ -5,22 +5,22 @@ const skillGroups = [
   {
     label: 'Frontend',
     color: '#63b3ed',
-    skills: ['React', 'JavaScript (ES6+)', 'HTML5', 'CSS3'],
+    skills: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5 / CSS3'],
   },
   {
     label: 'Backend',
     color: '#b794f4',
-    skills: ['.NET / C#', 'REST APIs', 'Clean Architecture', 'Node.js'],
+    skills: ['Python', '.NET / C#', 'Node.js', 'Flask', 'FastAPI', 'Express.js'],
   },
   {
-    label: 'Database',
+    label: 'Database & DevOps',
     color: '#68d391',
-    skills: ['PostgreSQL', 'JSON Server', 'Data Modelling'],
+    skills: ['PostgreSQL', 'MySQL', 'SQLite', 'Docker', 'Kubernetes', 'GitHub Actions'],
   },
   {
-    label: 'Tools & DevOps',
+    label: 'AI & Tooling',
     color: '#f6ad55',
-    skills: ['Git & GitHub', 'Docker', 'Postman', 'VS Code'],
+    skills: ['YOLOv8 / EasyOCR', 'Claude & Copilot', 'Git & GitHub', 'Postman', 'AWS (Foundational)'],
   },
 ]
 
