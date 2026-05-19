@@ -3,9 +3,9 @@ import { useRef } from 'react'
 import { Mail, GitFork, Link2, ArrowRight } from 'lucide-react'
 
 const links = [
-  { icon: <Mail size={20} />, label: 'Email', value: 'mel@example.com', href: 'mailto:mel@example.com', color: '#63b3ed' },
-  { icon: <GitFork size={20} />, label: 'GitHub', value: 'github.com/mel', href: 'https://github.com', color: '#e8edf2' },
-  { icon: <Link2 size={20} />, label: 'LinkedIn', value: 'linkedin.com/in/mel', href: 'https://linkedin.com', color: '#68d391' },
+  { icon: <Mail size={20} />, label: 'Email', value: 'kleinmelanie04@gmail.com', href: 'mailto:kleinmelanie04@gmail.com', color: '#63b3ed' },
+  { icon: <GitFork size={20} />, label: 'GitHub', value: 'github.com/Melanielante', href: 'https://github.com/Melanielante', color: '#e8edf2' },
+  { icon: <Link2 size={20} />, label: 'LinkedIn', value: 'linkedin.com/in/melanie-akinyi-44ab07234/', href: 'https://linkedin.com/in/melanie-akinyi-44ab07234/', color: '#68d391' },
 ]
 
 export default function Contact() {
@@ -87,7 +87,7 @@ export default function Contact() {
           </motion.div>
 
           <motion.a
-            href="mailto:mel@example.com"
+            href="mailto:kleinmelanie04@gmail.com"
             className="btn btn-primary"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}

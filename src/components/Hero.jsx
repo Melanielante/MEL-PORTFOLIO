@@ -113,9 +113,9 @@ export default function Hero() {
         {/* Social links */}
         <motion.div {...fadeUp(0.65)} style={{ display: 'flex', gap: '1rem' }}>
           {[
-            { icon: <GitFork size={18} />, href: 'https://github.com', label: 'GitHub' },
-            { icon: <Link2 size={18} />, href: 'https://linkedin.com', label: 'LinkedIn' },
-            { icon: <Mail size={18} />, href: 'mailto:mel@example.com', label: 'Email' },
+            { icon: <GitFork size={18} />, href: 'https://github.com/Melanielante', label: 'GitHub' },
+            { icon: <Link2 size={18} />, href: 'https://www.linkedin.com/in/melanie-akinyi-44ab07234/', label: 'LinkedIn' },
+            { icon: <Mail size={18} />, href: 'mailto:kleinmelanie04@gmail.com', label: 'Email' },
           ].map(s => (
             <a key={s.label} href={s.href} target="_blank" rel="noreferrer"
               style={{

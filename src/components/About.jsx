@@ -29,7 +29,7 @@ export default function About() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
               <p>
-                Hey, I'm <strong style={{ color: 'var(--text)' }}>MEL</strong>—a software developer passionate about building solutions that matter.
+                Hey, I'm <strong style={{ color: 'var(--text)' }}>MELANIE AKINYI</strong>—a software developer passionate about building solutions that matter.
               </p>
               <p>
                 Right now, I'm working on projects like ERP systems and modern web apps, focusing on creating scalable and efficient systems. I enjoy turning complex problems into structured, usable solutions.
